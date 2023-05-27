@@ -4,4 +4,5 @@ i = 0
 while 2 ** i <= N:
     x = 2 ** i
     i = i + 1
-    print(x)
+    if x >1:
+        print(x)
